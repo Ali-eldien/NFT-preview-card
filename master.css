@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(215, 33%, 17%);
+    font-family: "Outfit", sans-serif;
+    
+}
+.container {
+    position: relative;
+    height: 570px;
+    width: 350px;
+    left: 40%;
+    top: 100px;
+    background-color: hsl(216, 40%, 25%);
+    border-radius: 10px;
+}
+
+.photo {
+    position: absolute;
+    right: 9%;
+    top: 3%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.title {
+    position: absolute;
+    color: white;
+    top: 60%;
+    font-size: 24px;
+    left: 6%;
+
+}
+
+.info {
+    position: absolute;
+    top: 68%;
+    left: 6%;
+    max-width: 300px;
+    color: rgba(255, 255, 255, 0.669);
+}
+
+.price {
+    position: absolute;
+    top: 77%;
+    left: 5%;
+    color: cyan;
+}
+
+.icon1 {
+    position: relative;
+    top: 3px;
+    margin-right: 8px;
+    
+    
+    
+}
+
+.time {
+    position: absolute;
+    right: 10%;
+    color: rgba(255, 255, 255, 0.681);
+    top: 78%;
+}
+
+.icon2 {
+    margin-right: 5px;
+    position: absolute;
+    left: -20px;
+}
+
+hr {
+    position: absolute;
+    border: 1px solid rgba(255, 255, 255, 0.337);
+    bottom: 15%;
+    width: 90%;
+    left: 5%;
+}
+
+.profile {
+    position: absolute;
+    height: 45px;
+    border: 1px white solid;
+    border-radius: 22.5px;
+    bottom: 4%;
+    left: 7%;
+}
+
+.name {
+    position: absolute;
+    color: white;
+    bottom: 6%;
+    left: 25%;
+}
+
+span {
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.705);
+}
